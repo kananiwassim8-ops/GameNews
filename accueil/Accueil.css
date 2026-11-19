@@ -4,6 +4,7 @@ table {
 }
 td {
     font-family: 'orbitron';
+    
 }
 
 .topbar {
@@ -11,4 +12,11 @@ td {
     height: 50px;
     font-weight: 900;
     font-size: xx-large;
+    
+}
+
+#logo {
+    width: 40px;
+    height: 40px;
+    vertical-align:middle;
 }
