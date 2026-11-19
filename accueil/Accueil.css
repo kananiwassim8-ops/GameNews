@@ -2,3 +2,13 @@
 table {
     width:100%;
 }
+td {
+    font-family: 'orbitron';
+}
+
+.topbar {
+    width: 400px;
+    height: 50px;
+    font-weight: 900;
+    font-size: xx-large;
+}
