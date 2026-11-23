@@ -4,18 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Accueil.css">
+    <script src="script.js" defer></script>
     <title>Accueil</title>
 </head>
 <body>
-   <table border="1px">
-    <tr border="1px">
-        <td class="topbar"><img id="logo"src="images/logo.png" alt="Logo" />GameNews</td> <td>Accueil</td><td>Informations</td><td>Contacts</td>
-    </tr>
-    <tr><td>Dernières actualitées</td>
-        
-    </tr>
-    <tr><td></td></tr>
-   </table>
+<table>
+    <tr>
+        <td class="topbar" id="top" colspan="2"><img id="logo" src="images/logo.png" alt="Logo">GameNews</td>
+        <td><a href="accueil.html">Accueil</a></td>
+        <td><a href="informations.html">informations</a></td>
+        <td><a href="../contact/contact.html">Contacts</a></td>
+    </tr>     
+</table>
+<div id="status">Chargement ...</div>
+<div class="carousel-wrapper" id="carousel">
+    <div class="carousel-viewport">
+      <div class="carousel-track" id="track"></div>
+    </div>
+    <div class="dots-container" id="dots"></div>
+  </div>
+<div class="entete">Prochaines sorties</div>
+<div class="grille-jeux" id="conteneur-jeux"></div>
+<div class="entete">Meilleures consoles</div>
+<div class="jeux" id="console-jeux"><div class="console" id="ps5"><img src="images/ps5.jpg" alt="PlayStation 5"><p>PlayStation 5</p></div><div class="console" id="xbox"><img src="images/xbox.jpg" alt="Xbox Series X"><p>Xbox Series X</p></div><div class="console" id="switch"><img src="images/nintendo.jpg" alt="Nintendo Switch 2"><p>Nintendo Switch 2</p></div><div class="console" id="pc"><img src="images/pcgaming.jpg" alt="PC Gaming"><p>PC Gaming</p></div></div>
+<div class="entete"></div>
+<div class="jeux" id="classement-jeux"></div>
+
     
 </body>
 </html>
